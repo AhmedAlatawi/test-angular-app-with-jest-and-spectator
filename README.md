@@ -33,7 +33,7 @@ npm run test:watch
 ```
 You can also debug your tests by adding breakpoints to the code, e.g. running JavaScript Debug Terminal in VSCode as shown below:
 
-![](./images/vs-code-debug-terminal.png)
+![](./images/vs-code-javascript-debug-terminal.png)
 
 ## Run End-to-End Tests :white_check_mark:
 Run `ng e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io/). (Coming soon...)
