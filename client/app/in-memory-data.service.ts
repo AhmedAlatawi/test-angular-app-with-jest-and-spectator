@@ -29,8 +29,8 @@ export class InMemoryDataService implements InMemoryDbService {
           dateOfBirth: new Date('1980-04-11'),
           joinedDate: new Date('2019-01-09')
         },
-        createdDate: new Date('2019-10-04'),
-        updatedDate: new Date('2019-11-03')
+        createdDate: new Date('1995-09-17'),
+        updatedDate: new Date('2007-10-12')
       },
       {
         id: '1a584205-5cda-443c-bd3f-6cc5e755ec2b',
@@ -48,8 +48,8 @@ export class InMemoryDataService implements InMemoryDbService {
           dateOfBirth: new Date('1980-04-11'),
           joinedDate: new Date('2019-01-09')
         },
-        createdDate: new Date('2019-10-04'),
-        updatedDate: new Date('2019-11-03')
+        createdDate: new Date('1999-02-04'),
+        updatedDate: new Date('2005-11-03')
       },
       {
         id: '5f0fbe94-e555-4747-bb7a-e8e99bf6c404',
@@ -67,14 +67,14 @@ export class InMemoryDataService implements InMemoryDbService {
           dateOfBirth: new Date('1980-04-11'),
           joinedDate: new Date('2019-01-09')
         },
-        createdDate: new Date('2019-10-04'),
-        updatedDate: new Date('2019-11-03')
+        createdDate: new Date('2003-05-01'),
+        updatedDate: new Date('2004-10-20')
       },
       {
         id: '63d7532d-9cd5-4238-be17-667d52098d77',
-        title: 'The Dreamer',
-        subjectMatter: 'English',
-        body: `<p>my article - hi there, this is me Ahmed Alatawi.</p>`,
+        title: 'The Comedian',
+        subjectMatter: 'Comedy',
+        body: `<p>Hi - I am a comedian and I am proud of it.</p>`,
         author: {
           id: '4',
           name: 'Olivia Moore',
@@ -84,14 +84,14 @@ export class InMemoryDataService implements InMemoryDbService {
           dateOfBirth: new Date('1980-04-11'),
           joinedDate: new Date('2019-01-09')
         },
-        createdDate: new Date('2019-10-04'),
-        updatedDate: new Date('2019-11-03')
+        createdDate: new Date('2010-11-06'),
+        updatedDate: new Date('2009-03-06')
       },
       {
         id: '92de0a91-a8e3-48f0-9740-e18e9bfae48e',
-        title: 'The Dreamer',
-        subjectMatter: 'English',
-        body: '<p>my article - hi there, this is me Ahmed Alatawi.</p>',
+        title: 'Bike Ride',
+        subjectMatter: 'Mountain Biking',
+        body: '<p>Go mountain biking in the summer.</p>',
         author: {
           id: '5',
           name: 'Jacob Adams',
@@ -101,8 +101,8 @@ export class InMemoryDataService implements InMemoryDbService {
           dateOfBirth: new Date('1980-04-11'),
           joinedDate: new Date('2019-01-09')
         },
-        createdDate: new Date('2019-10-04'),
-        updatedDate: new Date('2019-11-03')
+        createdDate: new Date('2019-12-02'),
+        updatedDate: new Date('2020-01-03')
       }
     ] as Article[];
 

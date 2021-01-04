@@ -21,7 +21,7 @@
 </div>
 
 <div class="content-body">
-  <button *ngIf="showWriteArticleBtn" type="button" style="max-width: 100px;" [routerLink]="['/article/new']">Write article</button>
+  <button *ngIf="showWriteArticleBtn" type="button" name="createArticle" style="max-width: 100px;" [routerLink]="['/article/new']">Write article</button>
   <br>
   <router-outlet></router-outlet>
 </div>

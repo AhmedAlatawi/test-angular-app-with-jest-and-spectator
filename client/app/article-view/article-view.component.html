@@ -1,7 +1,7 @@
 <p *ngIf="!editMode">
-    <button (click)="edit()">Edit</button> &nbsp; 
-    <button (click)="delete()">Delete</button> &nbsp; 
-    <button [routerLink]="['/articles']">Cancel</button>
+    <button name="edit" (click)="edit()">Edit</button> &nbsp; 
+    <button name="delete" (click)="delete()">Delete</button> &nbsp; 
+    <button name="cancel" [routerLink]="['/articles']">Cancel</button>
 </p>
 
 <div *ngIf="!editMode">
